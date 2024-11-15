@@ -1,4 +1,5 @@
 # CompSoc
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Overview
 
@@ -18,7 +19,7 @@ Nele é possível filtrar os dados por município ou UF. Os códigos SIAFI utili
 O arquivo `buscar_cnaes.py` busca, a partir dos CNPJs disponibilizados pelo usuário num arquivo .csv (com a coluna 'cnpj'), os CNAEs de cada estabelecimento. O resultado é salvo em um arquivo .csv com o nome 'resultado.csv' com 3 colunas, 'cnpj', 'cnae_fiscal' e 'cnae_fiscal_secundaria'.
 
 ### Atenção
-Mais informações são disponibilizadas nas funções main de cada arquivo.
 
-Um arquivo com o dataframe de outubro de 2024 está disponível em `/docs/df_outubro_2024.csv`.
+- Mais informações são disponibilizadas nas funções main de cada arquivo.
 
+- Um arquivo com o dataframe de outubro de 2024 está disponível em `./docs/df_outubro_2024.csv`.
