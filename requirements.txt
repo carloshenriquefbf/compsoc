@@ -1,5 +1,4 @@
 requests
 BeautifulSoup4
 pandas
-sqlalchemy
-psycopg2-binary
+zipfile
